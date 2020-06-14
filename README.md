@@ -16,6 +16,12 @@ Run the neural network training & prediction:
 ```
 python3.5 run.py
 ```
+or
+
+```
+python3.5 runtest_cpu.py
+```
+
 
 You need to run the code twice to reproduce the result. 
 First time, train_fold_1.lst and test_fold_1.lst are the data in Cellcycle, the "test" data are the 20% data that are used to find out the threshold. After you make the prediction, you analyze the soft.csv to find a good threshold. 
