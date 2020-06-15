@@ -29,8 +29,10 @@ Second time, change the test_fold_1.lst to another test_fold_1.lst which is anot
 
 ## System Requirements
 The results were generated with python3.5 on an Linux Red Hat 4.8.5-36.
+
 Environments:
 * GCC/5.4.0 CUDA/7.5.18 OpenMPI/1.10.3 Python/3.5.2
+
 Additional dependencies:
 * mxnet 0.10.0
 * numpy 1.12.0
