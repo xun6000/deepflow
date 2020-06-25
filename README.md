@@ -32,11 +32,15 @@ The results were generated with python3.5 on an Linux Red Hat 4.8.5-36.
 
 Environments:
 * GCC/5.4.0 CUDA/7.5.18 OpenMPI/1.10.3 Python/3.5.2
+mxnet should be aligned with your CUDA vesion. 
+
+pip3 install opencv-python==3.4.1.15 
+pip3 install mxnet-cu90==1.1.0
 
 Additional dependencies:
-* mxnet 0.10.0
+* mxnet 1.1.0 
 * numpy 1.12.0
-* cv2   3.2.0
+* cv2   3.4.1.15 
 
 
 
