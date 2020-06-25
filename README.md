@@ -35,6 +35,7 @@ Environments:
 mxnet should be aligned with your CUDA vesion. 
 
 pip3 install opencv-python==3.4.1.15 
+
 pip3 install mxnet-cu90==1.1.0
 
 Additional dependencies:
