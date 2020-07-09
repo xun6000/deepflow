@@ -32,6 +32,7 @@ The results were generated with python3.5 on an Linux Red Hat 4.8.5-36.
 
 Environments:
 * GCC/5.4.0 CUDA/7.5.18 OpenMPI/1.10.3 Python/3.5.2
+
 mxnet should be aligned with your CUDA vesion. 
 
 
@@ -42,6 +43,7 @@ Additional dependencies:
 
 
 If you use google cloud deep learning service, which has cuda90, you can use :
+
 pip3 install opencv-python==3.4.1.15 
 
 pip3 install mxnet-cu90==1.1.0
