@@ -43,5 +43,11 @@ Additional dependencies:
 * numpy 1.12.0
 * cv2   3.4.1.15 
 
+The data folder contains data used for maintext.
+
+The data for SI is in dropbox.
+https://www.dropbox.com/sh/a7ef9987ez3aacf/AAAWl2cw-z8tKnprsWVhR5gSa?dl=0
+You can find there are similarity in the file name which indicate they are a pair of training and test.
+
 
 
