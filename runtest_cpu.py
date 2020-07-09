@@ -11,10 +11,10 @@ logger.setLevel(logging.DEBUG)
 logging.basicConfig(level=logging.DEBUG)
 
 #device specification
-num_cpus = 2
-#num_gpus = 4
-cpus = [mx.cpu(i) for i in [num_cpus]]
-#gpus = [mx.gpu(i) for i in range(num_gpus)]
+#num_cpus = 2
+num_gpus = 2
+#cpus = [mx.cpu(i) for i in [num_cpus]]
+gpus = [mx.gpu(i) for i in range(num_gpus)]
 
 kv = mx.kvstore.create('local_allreduce_device')
 
@@ -127,7 +127,7 @@ def train_ifc():
 
     # create new model with params
     model = mx.mod.Module(
-        context       = cpus,
+        context       = gpus,
         symbol        = softmax
     )
 
@@ -176,7 +176,7 @@ def train_ifc():
 def predict(): 
    """ prediction routine which saves testset features and softmax outputs to disc
    """
-   model = mx.model.FeedForward.load(model_prefix, num_epoch, ctx = cpus)  
+   model = mx.model.FeedForward.load(model_prefix, num_epoch, ctx = gpus)  
    internals = softmax.get_internals()
    fea_symbol2 = internals["flatten0_output"]
    fea_symbol1 = internals["softmax_output"]
