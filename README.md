@@ -49,5 +49,7 @@ The data for SI is in dropbox.
 https://www.dropbox.com/sh/a7ef9987ez3aacf/AAAWl2cw-z8tKnprsWVhR5gSa?dl=0
 You can find there are similarity in the file name which indicate they are a pair of training and test.
 
+The folder data_preprocessing_and_analysis_code contains the code for data pre-processing and post analysis. The subfolder contains the code for SI.
+
 
 
