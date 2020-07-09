@@ -2,7 +2,19 @@
 This code contains the neural network implementation from the nature communication publication https://doi.org/10.1038/s41467-017-00623-3 . We use this network for our TNBC paper.
 
 ## Access the data
-The data zip file is inside "data" folder, make sure to unzip and keep the folder structure as same as is as same as train_fold_1.lst and test_fold_1.lst.
+
+The data folder contains data used for maintext. Make sure to unzip and keep the folder structure as same as is as same as train_fold_1.lst and test_fold_1.lst.
+
+The data for SI is in dropbox.
+
+https://www.dropbox.com/sh/a7ef9987ez3aacf/AAAWl2cw-z8tKnprsWVhR5gSa?dl=0
+
+You can find there are similarity in the file name which indicate they are a pair of training and test.
+
+## Data pre-processing and post analysis
+
+The folder data_preprocessing_and_analysis_code contains the code for data pre-processing and post analysis. The subfolder contains the code for SI.
+
 
 ## Running the code.
 To reproduce the results from the publication, change the PATH2MXNET variable in generate_record_files.sh to your mxnet home folder and run:
@@ -54,13 +66,8 @@ pip3 install mxnet-cu90==1.1.0
 
 
 
-The data folder contains data used for maintext.
 
-The data for SI is in dropbox.
-https://www.dropbox.com/sh/a7ef9987ez3aacf/AAAWl2cw-z8tKnprsWVhR5gSa?dl=0
-You can find there are similarity in the file name which indicate they are a pair of training and test.
 
-The folder data_preprocessing_and_analysis_code contains the code for data pre-processing and post analysis. The subfolder contains the code for SI.
 
 
 
