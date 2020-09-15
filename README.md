@@ -1,5 +1,5 @@
 # Reconstructing cell cycle and disease progression using deep learning
-This code contains the neural network implementation from the nature communication publication https://doi.org/10.1038/s41467-017-00623-3 . We use this network for our TNBC paper.
+This code contains the neural network implementation from the nature communication publication https://doi.org/10.1038/s41467-017-00623-3 . We use this network for our TNBC paper https://www.frontiersin.org/articles/10.3389/fphys.2020.511071/abstract .
 
 ## Access the data
 
