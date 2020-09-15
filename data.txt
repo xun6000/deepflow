@@ -1,3 +1,0 @@
-
-unzip the training and test data into this foler.
-If you want to reproduce our TNBC result,you need to make sure the data structure is as same as train_fold_1.lst and test_fold_1.lst
