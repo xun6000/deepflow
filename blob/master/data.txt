@@ -1,4 +1,0 @@
-Training and testing data for SI can be found in dropbox:
-https://www.dropbox.com/sh/a7ef9987ez3aacf/AAAWl2cw-z8tKnprsWVhR5gSa?dl=0
-
-Training and testing data for maintext can be found in github deepflow/data.
